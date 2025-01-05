@@ -24,11 +24,19 @@ const Portfolio = () => {
                 <img className="portfolio__arrow" src={arrow} alt="Стрелка" />
             </a>
             <hr className="portfolio__line"></hr>
-            <a href="https://anatoly-karpov79.github.io/russian-travel/"
+            <a href="https://anatoly-karpov79.github.io/mesto-frontend/"
                 className="portfolio__container"
                 rel="noreferrer"
                 target="_blank">
                 <p className="portfolio__link">Одностраничное приложение</p>
+                <img className="portfolio__arrow" src={arrow} alt="Стрелка" />
+            </a>
+            <hr className="portfolio__line"></hr>
+            <a href="https://ecomestore.sytes.net/"
+                className="portfolio__container"
+                rel="noreferrer"
+                target="_blank">
+                <p className="portfolio__link">Участие в проекте Яндекс.Акселератор</p>
                 <img className="portfolio__arrow" src={arrow} alt="Стрелка" />
             </a>
         </section>

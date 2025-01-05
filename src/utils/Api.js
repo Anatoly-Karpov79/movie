@@ -96,7 +96,7 @@ class Api {
   
   export const api = new Api({
         
-    baseUrl: `https://api.karp.movies-explorer.nomoredomains.work`,
+    baseUrl: `https://api.karpovsite.ru`,
     
     headers: {
       

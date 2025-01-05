@@ -75,7 +75,7 @@ class MainApi {
 
 
 export const mainApi = new MainApi({
-    baseUrl: `https://api.karp.movies-explorer.nomoredomains.work`,
+    baseUrl: `https://api.karpovsite.ru`,
     headers: {
         'Content-Type': 'application/json',
         'Authorization': `Bearer ${localStorage.getItem('jwt')}`

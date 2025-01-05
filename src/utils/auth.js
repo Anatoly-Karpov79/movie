@@ -1,4 +1,4 @@
-export const BASE_URL = "https://api.karp.movies-explorer.nomoredomains.work";
+export const BASE_URL = "https://api.karpovsite.ru";
 
 function checkResponse(res) {
   return res.ok ? res.json() : Promise.reject(`Ошибка ${res.status}`);
